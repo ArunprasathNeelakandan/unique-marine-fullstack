@@ -1,0 +1,4 @@
+.overlay {
+    background: transparent !important;  /* Remove background */
+    backdrop-filter: none !important;  /* Remove any background blur effect */
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.root {
+  background-image: url('.\assets\img3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+@media screen and (orientation: portrait) {
+  .root {
+    /* background-image: url('.\assets\img2.jpg'); */
+  }
+}
+
+
+
+.aaa { 
+  background-color: rgba(27, 46, 91, 0.233);
+}
+
