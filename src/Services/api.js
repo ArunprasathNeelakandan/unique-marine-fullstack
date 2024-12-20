@@ -8,6 +8,7 @@ export const api = axios.create({
 });
 
 export const login = async (username, password) => {
+  console.log(process.env.REACT_APP_API_BASE_URL)
   try {
     const response = await api.post("/admin/login", { username, password });
     return response.data;

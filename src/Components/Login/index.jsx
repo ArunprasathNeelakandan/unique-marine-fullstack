@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Cookies from "js-cookie";
 import { useNavigate, Navigate } from "react-router-dom";
 import { login } from "../../Services/api";
-// import { isAuthenticated } from "../../Services/utility";
 import "./index.css";
 
 const Login = (props) => {

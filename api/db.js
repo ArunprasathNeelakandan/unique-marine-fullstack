@@ -4,14 +4,13 @@ const { open } = require('sqlite');
 const path = require('path');
 const dotenv = require('dotenv'); // Use dotenv for environment variables
 
-dotenv.config(); // Load environment variables
-
-// Use the environment variable for database path
+dotenv.config(); 
 const dbPath = process.env.DB_PATH || path.join(__dirname, 'marine.db');
 
 let db;
 
 const initializeDbAndServer = async () => {
+    console.log('aaaaaaaa')
     try {
         db = await open({
             filename: dbPath,
